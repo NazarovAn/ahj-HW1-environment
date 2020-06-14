@@ -1,1 +1,7 @@
-console.log('it works!');
+export default function works() {
+  console.log('it works!');
+
+  return true;
+}
+
+works();
